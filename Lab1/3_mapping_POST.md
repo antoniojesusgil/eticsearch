@@ -5,7 +5,6 @@ Crear documentos y su correspondiente índice sin abandonar la consola. Utiliza 
 1. Crea un indice denominado `coches` y documento de tipo `doc` con la información de abajo. Recuerda que el `id` se genera automáticamente.
 
 ```json
-
 "descripcion":"Como nuevo",
   "marca" : "Lancia",
   "modelo": "delta",
@@ -14,102 +13,82 @@ Crear documentos y su correspondiente índice sin abandonar la consola. Utiliza 
   "precio":899.88,
    "location":  
     "lat": 41.12,
-    "lon": 0.34
-
-/coches/doc
-{
+    "lon": 0.34
+```
+```json
 "descripcion":"Buen estado",
   "marca" : "VolksWagen",
   "modelo": "Golf I",
   "fecha_compra":"11-01-1975",
   "pais":"Alemania",
   "precio":1200.88,
-   "location": { 
+   "location":  
     "lat": 42.12,
-    "lon": 0.34
-  }
-} 
-
-/coches/doc
-{
-  "descripcion":"Coche francés",
+    "lon": 0.34 
+```
+```json
+"descripcion":"Coche francés",
   "marca" : "Peugeot",
   "modelo": "607",
   "fecha_compra":"11-01-2017",
   "pais":"Francia",
   "precio":240.88,
-   "location": { 
+   "location": 
     "lat": 42.12,
-    "lon": 0.34
-  }
-} 
-
-/coches/doc
-{
-  "descripcion":"En venta",
+    "lon": 0.34
+```
+```json
+"descripcion":"En venta",
   "marca" : "BMW",
   "modelo": "607",
   "fecha_compra":"28-10-2017",
   "pais":"Alemania",
   "precio":20000.88,
-   "location": { 
+   "location":  
     "lat": 30.12,
-    "lon": 0.34
-  }
-}
+    "lon": 0.34
+```
+```json
 
-/coches/doc
-{
-  "descripcion":"Ocasión única, a la venta el coche de 007 y su majestad la reina de Inglaterra",
+"descripcion":"Ocasión única, a la venta el coche de 007 y su majestad la reina de Inglaterra",
   "marca" : "Rolls Royce",
   "modelo": "Y665",
   "fecha_compra":"11-12-2017",
   "pais":["Ingaterra","Francia"],
   "precio":55989.88,
-   "location": { 
+   "location": 
     "lat": 41.12,
-    "lon": -71.34
-  }
-} 
-
-/coches/doc
-{
+    "lon": -71.34
+```
+```json
 "descripcion":"Ocasión",
   "marca" : "Seat",
   "modelo": "Ibiza",
   "fecha_compra":"21-05-1987",
   "pais":"España",
   "precio":12000.88,
-   "location": { 
+   "location": 
     "lat": 41.12,
-    "lon": 0.34
-  }
-} 
-
-/coches/doc
-{
-  "descripcion":"Clásico",
+    "lon": 0.34
+````
+```json
+"descripcion":"Clásico",
   "marca" : "Seat",
   "modelo": "600",
   "fecha_compra":"11-01-2017",
   "pais":"España",
   "precio":12000.88,
-   "location": { 
+   "location": 
     "lat": 41.12,
-    "lon": 0.34
-  }
-} 
-
-/coches/doc
-{
-  "marca" : "Seat",
+    "lon": 0.34
+````
+```json
+"marca" : "Seat",
   "modelo": "Leon",
   "fecha_compra":"11-01-2018",
   "pais":"España",
   "precio":25000.88,
-   "location": { 
+   "location":  
     "lat": 41.12,
     "lon": 0.34
-  }
-} 
 ```
