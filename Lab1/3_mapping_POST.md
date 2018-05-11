@@ -2,22 +2,19 @@
 Crear documentos y su correspondiente índice sin abandonar la consola. Utiliza verbo `POST`
 
 ##### To-Do
-1. Añade estos coches. Recuerda que el `id` se genera automáticamente.
+1. Crea un indice denominado `coches` y documento de tipo `doc` con la información de abajo. Recuerda que el `id` se genera automáticamente.
 
 ```json
-/coches/doc
-{
+
 "descripcion":"Como nuevo",
   "marca" : "Lancia",
   "modelo": "delta",
   "fecha_compra":"12-01-2017",
   "pais":"Italia",
   "precio":899.88,
-   "location": { 
+   "location":  
     "lat": 41.12,
     "lon": 0.34
-  }
-} 
 
 /coches/doc
 {
