@@ -1,8 +1,9 @@
 ### Some words here
+Crear documento y su indice sin abandonar la consola.
 
 ##### To-Do
 
-1. Usando el verbo `POST` añade estos coches. El documento será `doc` recuerda que el `id` se genera automáticamente.
+1. Usando el verbo `POST` añade estos coches. Recuerda que el `id` se genera automáticamente.
 
 ```json
 POST /coches/doc
