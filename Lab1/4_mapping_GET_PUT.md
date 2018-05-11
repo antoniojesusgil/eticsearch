@@ -1,10 +1,11 @@
 ### Some words here
+ 
+Verbos a utilizar `GET` y `PUT`
 
 ##### To-Do
+1. Obten el mapping del índice creado en el ejercicio anterior.
 
-1. Obten mediante verbo `GET` el mapping del nuevo indice 'coches'
-
-2. Mediante el uso del verbo `PUT`añade estos nuevos registros al índice coches con las siguientes caracteristicas
+2. Añade estos nuevos registros al índice coches con las siguientes caracteristicas:
 
 ```json
    "marca" : "Ferrari",
