@@ -3,9 +3,11 @@
 Verbos a utilizar `GET` y `PUT`
 
 ##### To-Do
-1. Obten el mapping del índice creado en el ejercicio anterior.
+1. Muestra los `settings` con los que se ha creado el índice del ejercicio anterior.
 
-2. Añade estos nuevos registros al índice coches con las siguientes caracteristicas:
+2. Obten el mapping del índice `coches`.
+
+2. Añade estos nuevos registros al índice con las siguientes caracteristicas:
 
 ```json
    "marca" : "Ferrari",
