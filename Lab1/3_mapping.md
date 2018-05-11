@@ -1,5 +1,26 @@
-### TODO
-1. Crea un indice llamado 'coches' usando el comando `PUT` Los campos, tipo de dato y formato se detallan acontinuación.
+### TODO CRUD
+
+1. POST 
+```json
+POST /coches/doc
+{
+"description":"estado nuevo",
+  "marca" : "Lancia",
+  "modelo": "delta",
+  "fecha_compra":"12-01-2017",
+  "pais":"Italia",
+  "precio":899.88,
+   "location": { 
+    "lat": 41.12,
+    "lon": 0.34
+  }
+} 
+```
+
+
+
+
+. Crea un indice llamado 'coches' usando el comando `PUT` Los campos, tipo de dato y formato se detallan acontinuación.
 
 | Campo        | Tipo      | Formato    |
 |--------------|-----------|------------|
