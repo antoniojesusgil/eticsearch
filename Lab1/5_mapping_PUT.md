@@ -1,6 +1,6 @@
 
 ### TODO
-1. Crea un indice llamado 'coches' usando el comando `PUT` Los campos, tipo de dato y formato se detallan acontinuación.
+1. Crea un indice llamado 'coches' usando el comando `PUT` Los campos, tipo de dato y formato se detallan en la tabla.
 
 | Campo        | Tipo      | Formato    |
 |--------------|-----------|------------|
