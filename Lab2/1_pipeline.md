@@ -1,8 +1,8 @@
 ### Some words here
-Logstash necesita de ficheros de configuración para realizar la ingesta en elasticsearch.
+Logstash necesita de ficheros de configuración para realizar la ingesta en elasticsearch. 
 
 ##### To-Do
-
+1. Utiliza esta plantilla para completar los ejercicios.
 ```code
 
 # Sección de entrada
@@ -13,7 +13,7 @@ input {
 		codec => plain { charset => "UTF-8" }
 	}
 	file {
-		path => ["./data/*.csv"]
+		path => ["/ruta/a/tus/datos/*.csv"]
 		start_position => "beginning"
 		sincedb_path => "/dev/null"
 	}
