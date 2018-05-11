@@ -1,6 +1,7 @@
-### TODO CRUD
+### TODO
 
-1. POST 
+1. Usando el verbo `POST`Añade estos coches. El documento será `doc` recuerda que el `id` se genera automáticamente.
+
 ```json
 POST /coches/doc
 {
