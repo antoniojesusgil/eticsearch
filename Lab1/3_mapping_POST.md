@@ -1,12 +1,11 @@
 ### Some words here
-Crear documento y su indice sin abandonar la consola.
+Crear documentos y su correspondiente índice sin abandonar la consola. Utiliza verbo `POST`
 
 ##### To-Do
-
-1. Usando el verbo `POST` añade estos coches. Recuerda que el `id` se genera automáticamente.
+1. Añade estos coches. Recuerda que el `id` se genera automáticamente.
 
 ```json
-POST /coches/doc
+/coches/doc
 {
 "descripcion":"Como nuevo",
   "marca" : "Lancia",
@@ -20,7 +19,7 @@ POST /coches/doc
   }
 } 
 
-POST /coches/doc
+/coches/doc
 {
 "descripcion":"Buen estado",
   "marca" : "VolksWagen",
@@ -34,7 +33,7 @@ POST /coches/doc
   }
 } 
 
-POST /coches/doc
+/coches/doc
 {
   "descripcion":"Coche francés",
   "marca" : "Peugeot",
@@ -48,7 +47,7 @@ POST /coches/doc
   }
 } 
 
-POST /coches/doc
+/coches/doc
 {
   "descripcion":"En venta",
   "marca" : "BMW",
@@ -62,7 +61,7 @@ POST /coches/doc
   }
 }
 
-POST /coches/doc
+/coches/doc
 {
   "descripcion":"Ocasión única, a la venta el coche de 007 y su majestad la reina de Inglaterra",
   "marca" : "Rolls Royce",
@@ -76,7 +75,7 @@ POST /coches/doc
   }
 } 
 
-POST /coches/doc
+/coches/doc
 {
 "descripcion":"Ocasión",
   "marca" : "Seat",
@@ -90,7 +89,7 @@ POST /coches/doc
   }
 } 
 
-POST /coches/doc
+/coches/doc
 {
   "descripcion":"Clásico",
   "marca" : "Seat",
@@ -104,7 +103,7 @@ POST /coches/doc
   }
 } 
 
-POST /coches/doc
+/coches/doc
 {
   "marca" : "Seat",
   "modelo": "Leon",
