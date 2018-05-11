@@ -1,6 +1,6 @@
 ### Some words here
 
-###### To-Do
+##### To-Do
 1. Desde el navegador, chequea el estado de elasticsearch
 2. Desde el navegador, chequea el estado del cluster. Utiliza *pretty*
 3. Ejecuta los ejercicios anteriores utilizando cURL
