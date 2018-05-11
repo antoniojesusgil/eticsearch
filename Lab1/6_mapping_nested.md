@@ -1,10 +1,37 @@
 ### Some words here
+Anidando documentos
 
 ##### To-Do
 
+1. Añade el siguiente registro. Reflexiona sobre el resultado
+```json
+{
+  "descripcion":"color verde",
+  "marca" : "Skoda",
+  "modelo": "Rapid",
+  "fecha_compra":"11-01-2017",
+  "pais":"Alemania",
+  "precio":20000.88,
+   "location": { 
+    "lat": 30.12,
+    "lon": 0.34
+  },
+  "proprietarios":[
+    {
+    "nombre":"Jose",
+    "apellido":"Gomez"
+  },
+  {
+    "nombre":"Pedro",
+    "apellido":"Ramirez"
+  }
+  ]
+  
+} 
+```
 Para crear documentos anidados se utiliza el tipo de campo `nested`
 
-1. Modifica el índice 'coches' y crea un no nuevo que contenta los los campos `nombre` y `apellidos` anidados en un campo denominado `propietarios` ver tabla adjunta:
+. Modifica el índice 'coches' y crea un no nuevo que contenta los los campos `nombre` y `apellidos` anidados en un campo denominado `propietarios` ver tabla adjunta:
 
 | Campo        | Tipo      | Formato    |
 |--------------|-----------|------------|
