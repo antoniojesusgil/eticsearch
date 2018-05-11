@@ -11,4 +11,4 @@
 > http://localhost:9200/_nodes/settings?pretty=true
 
 ##### To-Do
-4. Realiza los ejercicios anteriores utilizando cURL. Apoyate en el documento de teoria.
+4. Realiza los ejercicios anteriores utilizando cURL. Mira el documento.
