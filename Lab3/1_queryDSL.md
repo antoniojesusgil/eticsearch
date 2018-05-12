@@ -68,6 +68,17 @@ Esta consulta nos muestra el total de `hits` encontrados
   }
 }
 ```
+Si queremos buscar por un campo concreto usamos `match`
+```json
+GET /coches/_search
+{
+  "query": {
+    "match": {
+      "pais": "Alemania"
+    }
+  }
+}
+```
 
 
 ##### To-Do
