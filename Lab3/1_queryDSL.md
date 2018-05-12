@@ -38,8 +38,9 @@ Los resultados son mostrados por 'relevancia' (_score) Esta consulta nos muestra
           }
         }
       },
-      ...
-      
+    .
+    .
+    .
 ```
 Si queremos buscar por un campo concreto en un índice, usamos `match`
 ```json
