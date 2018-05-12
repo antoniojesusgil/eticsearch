@@ -3,7 +3,8 @@ La estructura básica de una consulta DSL es
 ```json
 GET /coches/doc/_search
 ```
-Esta consulta nos muestra el total de `hits` encontrados en el `coches
+Los resultados son mostrados por 'relevancia' (_score) Esta consulta nos muestra el total de `hits` encontrados en `coches` y su `_score`
+[Más información sobre la relevancia](https://www.elastic.co/guide/en/elasticsearch/guide/current/relevance-intro.html)
 
 ```json
 {
@@ -84,3 +85,6 @@ Con `match_all` obtiene todos los documentos de todos los índices existentes.
 ##### To-Do
 1. Obten del índice coche todos cuya marca sea Ferrari.
 2. Obten del índice coche todos cuya marca sea Rolls Roice.
+
+
+##### To-Do
