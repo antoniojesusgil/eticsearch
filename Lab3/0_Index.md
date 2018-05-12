@@ -1,11 +1,10 @@
 ### Some words here
 
 Durante el desarrollo del Lab1 vimos la dificultad que tiene la construcción de índices de forma manual.
-Borra el `coches` y añade lo siguiente:
+##### To-Do
 
-```json
-DELETE coches
-```
+1. Borra `coches` y vuelve a crearlo
+
 ```json
 PUT coches
 {
@@ -72,6 +71,9 @@ PUT coches
   }
 }
 ```
+
+2. Copia y pega la insercion masiva de registros en Kibana. El documento con `id=1` es un Peugeot 607. ¿Por qué no ha dado error al insertarlo?
+
 ```json
 POST /coches/doc/_bulk
 {"index":{"_id":1}}
