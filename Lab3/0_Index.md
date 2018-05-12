@@ -2,6 +2,76 @@
 
 Durante el desarrollo del Lab1 vimos la dificultad que tiene la construcción de índices de forma manual.
 Borra el `coches` y añade lo siguiente:
+
+```json
+DELETE coches
+```
+```json
+PUT coches
+{
+  "settings": {
+    "number_of_shards": 1,
+    "number_of_replicas": 0
+  },
+  "mappings": {
+    "doc": {
+      "dynamic": true,
+      "properties": {
+        "descripcion": {
+          "type": "text"
+        },
+        "fecha_compra": {
+          "type": "date",
+          "format": "dd-MM-yyyy",
+          "fields": {
+            "str": {
+            "type":"keyword"
+            }
+          }
+        },
+        "marca": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword",
+              "ignore_above": 256
+            }
+          }
+        },
+        "pais": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword",
+              "ignore_above": 256
+            }
+          }
+        },
+        "modelo": {
+          "type": "keyword"
+        },
+        "precio": {
+          "type": "float"
+        },
+        "location": {
+          "type": "geo_point"
+        },
+        "propietarios": {
+          "type": "nested",
+          "properties": {
+            "nombre" : {
+              "type": "text"
+            },
+            "apellidos": {
+              "type": "text"
+            }
+          }
+        }
+      }
+    }
+  }
+}
+```
 ```json
 POST /coches/doc/_bulk
 {"index":{"_id":1}}
