@@ -2,24 +2,24 @@
 
 Las Consultas booleanas nos permiten hacer combinaciones
 ```json
-GET /inspections/report/_search
+GET coches/doc/_search
 {
-  "query": {
+"query": {
     "bool": {
       "must": [
         {
           "match": {
-            "business_name": "soup"
+            "marca": "seat"
           }
         },
         {
-          "match_phrase": {
-            "business_name": "san francisco"
+          "match": {
+            "modelo": "ibiza"
           }
         }
       ]
     }
-  }
+  }  
 }
 ``` 
 
