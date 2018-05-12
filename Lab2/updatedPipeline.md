@@ -1,3 +1,4 @@
+`
 input {
 	stdin {
 		type => "stdin-type"
@@ -90,3 +91,4 @@ output {
 	}
 	stdout { codec => rubydebug }
 }
+`
