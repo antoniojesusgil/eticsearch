@@ -1,6 +1,6 @@
 ### Some words here
 
-Las Consultas booleanas nos permiten hacer combinaciones
+Las consultas booleanas nos permiten hacer combinaciones
 ```json
 GET coches/doc/_search
 {
@@ -9,12 +9,12 @@ GET coches/doc/_search
       "must": [
         {
           "match": {
-            "marca": "seat"
+            "marca": "Seat"
           }
         },
         {
           "match": {
-            "modelo": "ibiza"
+            "modelo": "Ibiza"
           }
         }
       ]
@@ -24,6 +24,5 @@ GET coches/doc/_search
 ``` 
 
 ##### To-Do
-1. Obten 
-
-```json
+1. Obten todos los coches franceses que sean Peugeot
+2. Obten todos los coches cuyo precio sea mayor a 20000
