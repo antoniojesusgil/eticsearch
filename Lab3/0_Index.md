@@ -1,7 +1,7 @@
 ### Some words here
 
 Durante el desarrollo del Lab1 vimos la dificultad que tiene la construcción de índices de forma manual.
-Borra el indice `coches` y añade:
+Borra el `coches` y añade lo siguiente:
 ```json
 POST /coches/doc/_bulk
 {"index":{"_id":1}}
