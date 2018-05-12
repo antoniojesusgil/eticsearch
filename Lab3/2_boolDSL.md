@@ -24,5 +24,6 @@ GET coches/doc/_search
 ``` 
 
 ##### To-Do
-1. Obten todos los coches franceses que sean Peugeot
-2. Obten todos los coches cuyo precio sea mayor a 20000
+1. Obten todos los coches franceses que sean Peugeot.
+2. Obten todos los coches cuyo precio sea mayor a 20000.
+3. Muestra todos los coches que no sean Españoles.
