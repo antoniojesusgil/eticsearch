@@ -54,7 +54,7 @@ Crear documentos y su correspondiente índice sin abandonar la consola. Utiliza 
   "marca" : "Rolls Royce",
   "modelo": "Y665",
   "fecha_compra":"11-12-2017",
-  "pais":["Ingaterra","Francia"],
+  "pais":["Reino Unido","Francia"],
   "precio":55989.88,
    "location": 
     "lat": 41.12,
