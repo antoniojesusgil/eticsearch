@@ -4,12 +4,11 @@ Logstash es la herramienta para ingestar datos en elasticsearch, brinda un ampli
 
 #### Enunciado:
 
-Una de las áreas de negocio de nuestra compañia está centrada en el desarrollo de apps moviles, tras el lanzamiento de la primera, la dirección desea conocer el impacto de la misma a nivel global.
+Una de las áreas de negocio de nuestra compañia está centrada en el desarrollo de apps moviles, tras el lanzamiento una de ellas, la dirección desea conocer el impacto de la misma a nivel global.
 
-Las estadísticas que nos brindan los dos principales markets tan solo contemplan su área. La dirección desea que tengamos unos indicadores globales y nos piden que añadamos un nuevo índice en elastic para posteriormente construir un dashboard.
+Las estadísticas que nos brindan los principales markets tan solo contemplan su área. La dirección desea que tengamos unos indicadores globales y nos piden que añadamos un nuevo índice en elastic para posteriormente construir un dashboard.
 
 ##### To-Do
-Para completar el laboratorio se ha de configurar correctamente el fichero de configuración que se le pasará a logstash, se pide:
 
 1. Descarga los datos estadisticos correspondiente a Google y Apple
 2. Descarga y utiliza la plantilla `pipeline.conf` para construir el script. 
@@ -22,7 +21,7 @@ Para completar el laboratorio se ha de configurar correctamente el fichero de co
 
 6. Crea un índice llamado `markets`
 
-Para completar el laboratorio se ha de configurar correctamente el fichero de configuración que se le pasará a logstash 
+Para completar el laboratorio se ha de configurar correctamente el pipeline de configuración que se le pasará a logstash 
 
 ### Comprobar que se ha creado el índice y mostrar los datos en la consola 
 
