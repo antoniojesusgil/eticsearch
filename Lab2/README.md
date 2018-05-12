@@ -21,6 +21,7 @@ Las estadísticas que nos brindan los principales markets tan solo contemplan su
 
 6. Crea un índice llamado `markets`.
 7. Comprobar que se ha creado el índice, visualiza la consola.
+8. Crear el index pattern en kibana.
 
 Ayuda en la sección oficial de [configuración de logstash](https://www.elastic.co/guide/en/logstash/current/configuration.html)
 
