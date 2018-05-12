@@ -10,16 +10,16 @@ Las estadísticas que nos brindan los principales markets tan solo contemplan su
 
 ##### To-Do
 
-1. Descarga los datos estadisticos correspondiente a Google y Apple
+1. Descarga los datos estadisticos correspondiente a Google y Apple.
 2. Descarga y utiliza la plantilla `pipeline.conf` para construir el script. 
-3. Modifica el script para que apunte a los archivos csv
+3. Modifica el script para que apunte a los archivos csv.
 4. Convertir los campos numericos en integer:
->Utiliza mutate para transformar "Instalaciones", "Desinstalaciones" e "Impresiones"
+>Utiliza mutate para transformar `Instalaciones | Desinstalaciones | Impresiones` 
 
-5. Indica que la columna "Fecha" es de tipo date.
->Ten en cuenta los distintos formatos que vienen en los archivos csv
+5. Indica que la columna `Fecha` es de tipo date.
+>Ten en cuenta los formatos fecha que vienen en los archivos csv.
 
-6. Crea un índice llamado `markets`
-7. Comprobar que se ha creado el índice y mostrar los datos en la consola 
+6. Crea un índice llamado `markets`.
+7. Comprobar que se ha creado el índice, visualiza la consola.
 
 El laboratorio se completa configurando correctamente el pipeline y para poder trabajar con las herramientas visuales que nos brinda Kibana, se ha de crear un `index pattern`.
