@@ -1,6 +1,6 @@
 # Logstash from scratch
 
-Logstash es la herramienta para ingestar datos en elasticsearch, brinda un amplio abanico de filtros para modificar y transformar los datos crudos a datos entendibles por el área de negocio y posterior análisis.
+Logstash es la herramienta máter de elastic, brinda un amplio abanico de filtros para modificar, transformar e ingestar cantidades masivas de datos crudos a datos entendibles por las áreas de negocio y su posterior análisis.
 
 #### Enunciado:
 
@@ -20,9 +20,6 @@ Las estadísticas que nos brindan los principales markets tan solo contemplan su
 >Ten en cuenta los distintos formatos que vienen en los archivos csv
 
 6. Crea un índice llamado `markets`
+7. Comprobar que se ha creado el índice y mostrar los datos en la consola 
 
-Para completar el laboratorio se ha de configurar correctamente el pipeline de configuración que se le pasará a logstash 
-
-### Comprobar que se ha creado el índice y mostrar los datos en la consola 
-
-Para poder trabajar con las herramientas visuales que nos brinda Kibana, hemos de crear un `index pattern`
+El laboratorio se completa configurando correctamente el pipeline y para poder trabajar con las herramientas visuales que nos brinda Kibana, se ha de crear un `index pattern`.
