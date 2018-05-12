@@ -10,7 +10,7 @@ Las estadísticas que nos brindan los principales markets tan solo contemplan su
 
 ##### To-Do
 
-1. Descarga los datos estadisticos del directorio `Data`.
+1. Descarga los datos estadisticos del directorio `data`.
 2. Descarga y utiliza la plantilla `pipeline.conf` para construir el script. 
 3. Modifica el script para que apunte a los archivos csv.
 4. Convertir los campos numericos en integer:
