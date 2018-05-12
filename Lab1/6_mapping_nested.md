@@ -16,14 +16,14 @@ Para crear documentos anidados se utiliza el tipo de campo `nested`, el cual nos
     "lat": 30.12,
     "lon": 0.34
   },
-  "proprietarios":[
+  "propietarios":[
     {
     "nombre":"Jose",
-    "apellido":"Gomez"
+    "apellidos":"Gomez"
   },
   {
     "nombre":"Pedro",
-    "apellido":"Ramirez"
+    "apellidos":"Ramirez"
   }
   ]
 } 
