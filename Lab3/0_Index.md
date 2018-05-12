@@ -75,7 +75,7 @@ PUT coches
 ```json
 POST /coches/doc/_bulk
 {"index":{"_id":1}}
-{"descripcion":"Coche francés","marca":"Peugeot","modelo":"607","fecha_compra":"11-01-2017","pais":"Francia","precio":240.88,"location":{"lat":42.12,"lon":0.34}}
+{"descripcion":"Coche francés","marca":"Peugeot","modelo":607,"fecha_compra":"11-01-2017","pais":"Francia","precio":240.88,"location":{"lat":42.12,"lon":0.34}}
 {"index":{"_id":2}}
 {"descripcion":"Como nuevo","marca":"Lancia","modelo":"Delta","fecha_compra":"12-01-2017","pais":"Italia","precio":899.88,"location":{"lat":41.12,"lon":0.34}}
 {"index":{"_id":3}}
