@@ -8,7 +8,7 @@ Los resultados son mostrados por 'relevancia' (_score) Esta consulta nos muestra
 
 ```json
 {
-  "took": 5,
+  "took": 1,
   "timed_out": false,
   "_shards": {
     "total": 5,
@@ -17,15 +17,16 @@ Los resultados son mostrados por 'relevancia' (_score) Esta consulta nos muestra
     "failed": 0
   },
   "hits": {
-    "total": 2,
+    "total": 13,
     "max_score": 1,
     "hits": [
       {
         "_index": "coches",
         "_type": "doc",
-        "_id": "10000",
+        "_id": "5",
         "_score": 1,
         "_source": {
+          "descripcion": "Seminuevo",
           "marca": "Ferrari",
           "modelo": "F40",
           "fecha_compra": "01-08-2004",
@@ -37,37 +38,8 @@ Los resultados son mostrados por 'relevancia' (_score) Esta consulta nos muestra
           }
         }
       },
-      {
-        "_index": "coches",
-        "_type": "doc",
-        "_id": "D9UdUGMBTvoP0lVuJbec",
-        "_score": 1,
-        "_source": {
-          "descripcion": "color verde",
-          "marca": "Skoda",
-          "modelo": "Rapid",
-          "fecha_compra": "11-01-2017",
-          "pais": "Alemania",
-          "precio": 20000.88,
-          "location": {
-            "lat": 30.12,
-            "lon": 0.34
-          },
-          "proprietarios": [
-            {
-              "nombre": "Jose",
-              "apellidos": "Gomez Abascal"
-            },
-            {
-              "nombre": "Pedro",
-              "apellidos": "Ramirez Viladrau"
-            }
-          ]
-        }
-      }
-    ]
-  }
-}
+      ...
+      
 ```
 Si queremos buscar por un campo concreto en un índice, usamos `match`
 ```json
