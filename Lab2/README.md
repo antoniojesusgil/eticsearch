@@ -14,13 +14,13 @@ Para completar el laboratorio se ha de configurar correctamente el fichero de co
 1. Descarga los datos estadisticos correspondiente a Google y Apple
 2. Descarga y utiliza la plantilla `pipeline.conf` para construir el script. 
 3. Modifica el script para que apunte a los archivos csv
-4.- Convertir los campos numericos en integer:
+4. Convertir los campos numericos en integer:
 >Utiliza mutate para transformar "Instalaciones", "Desinstalaciones" e "Impresiones"
 
-2.- Indica que la columna "Fecha" es de tipo date.
+5. Indica que la columna "Fecha" es de tipo date.
 >Ten en cuenta los distintos formatos que vienen en los archivos csv
 
-3. Crea un índice llamado `markets`
+6. Crea un índice llamado `markets`
 
 Para completar el laboratorio se ha de configurar correctamente el fichero de configuración que se le pasará a logstash 
 
