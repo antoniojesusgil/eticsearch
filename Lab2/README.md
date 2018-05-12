@@ -16,12 +16,14 @@ Para completar el laboratorio se ha de configurar correctamente el fichero de co
 3. Modifica el script para que apunte a los archivos csv
 4.- Convertir los campos numericos en integer:
 >Utiliza mutate para transformar "Instalaciones", "Desinstalaciones" e "Impresiones"
+
 2.- Indica que la columna "Fecha" es de tipo date.
 >Ten en cuenta los distintos formatos que vienen en los archivos csv
+
 3. Crea un índice llamado `markets`
 
 Para completar el laboratorio se ha de configurar correctamente el fichero de configuración que se le pasará a logstash 
 
 ### Comprobar que se ha creado el índice y mostrar los datos en la consola 
 
-### Para poder trabajar con las herramientas visuales que nos brinda Kibana, hemos de crear un `index pattern`
+Para poder trabajar con las herramientas visuales que nos brinda Kibana, hemos de crear un `index pattern`
