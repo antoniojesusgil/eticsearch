@@ -3,7 +3,7 @@ La estructura básica de una consulta DSL es
 ```json
 GET /coches/doc/_search
 ```
-Esta consulta nos muestra el total de `hits` encontrados
+Esta consulta nos muestra el total de `hits` encontrados en el `coches
 
 ```json
 {
@@ -68,7 +68,7 @@ Esta consulta nos muestra el total de `hits` encontrados
   }
 }
 ```
-Si queremos buscar por un campo concreto usamos `match`
+Si queremos buscar por un campo concreto en un índice, usamos `match`
 ```json
 GET /coches/_search
 {
@@ -79,11 +79,8 @@ GET /coches/_search
   }
 }
 ```
-
+Con `match_all` obtiene todos los documentos de todos los índices existentes.
 
 ##### To-Do
-1. Crea un indice denominado `coches` y documento de tipo `doc` con la información de abajo. Recuerda que el `id` se genera automáticamente.
-
-```json
-"descripcion":"Como nuevo",
-  "marca" : "Lancia",
+1. Obten del índice coche todos cuya marca sea Ferrari.
+2. Obten del índice coche todos cuya marca sea Rolls Roice.
