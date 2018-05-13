@@ -2,9 +2,9 @@
 
 Logstash es la herramienta máter de elastic, brinda un amplio abanico de filtros para modificar, transformar e ingestar cantidades masivas de datos crudos a datos entendibles por las áreas de negocio y su posterior análisis.
 
-##### To-Do
+### Objetivos
 
-El objetivo de este laboratorio es familiarizarse con logstash, aprender a elaborar scripts para añadir datos en elasticsearch y poder visualizar los mismos en Kibana.
+Toma de contacto con logstash, aprender a elaborar scripts para añadir datos en elasticsearch y poder visualizar los mismos en Kibana.
 
 Este laboratorio consta de dos partes, la primera, enunciada a continuación indica paso por paso que hemos de hacer para construir el script pipeline y crear un índice. 
 
@@ -30,4 +30,4 @@ Ayuda en la sección oficial de [configuración de logstash](https://www.elastic
 
 El laboratorio se completa configurando correctamente el pipeline y para poder trabajar con las herramientas visuales que nos brinda Kibana, se ha de crear un `index pattern`.
 
-Una vez resuelta esta primera fase, ve a la segunda pinchando [aquí](./lab2_1)
+Una vez resuelta esta primera fase, ve a la segunda pinchando [aquí](./lab2_1/README.md)
