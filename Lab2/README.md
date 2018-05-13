@@ -23,6 +23,7 @@ En la segunda aprenderemos a añadir nuevos datos necesarios analizando los orig
 
 6. Ejecuta logstash contra elasticsearch y crea un índice llamado `markets`.
 >Para indicar a logstash que utilize el script hay que pasar el flag `-f`
+>Ejecuta `bin/logstash -f pipeline.conf`
 
 7. Comprobar que se ha creado el índice, visualiza la consola.
 8. Crear el index pattern en kibana.
