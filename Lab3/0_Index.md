@@ -1,7 +1,8 @@
-### Some words here
+Durante el desarrollo del primer laboratorio hemos visto la dificultad que tiene la construcción de índices de forma manual.
 
-Durante el desarrollo del Lab1 vimos la dificultad que tiene la construcción de índices de forma manual.
-##### To-Do
+En este ejercicio vemos como añadir gran cantidad de documentos utilizando Bulk API, que permite añadir o borrar multiples operaciones en una única llamadaPuedes obtener más ayuda accediendo a [sección oficial](https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-bulk.html).
+
+### To-Do
 
 1. Borra `coches` y vuelve a crearlo
 
@@ -72,7 +73,8 @@ PUT coches
 }
 ```
 
-2. Copia y pega la insercion masiva de registros en Kibana. El documento con `id=1` es un Peugeot 607. ¿Por qué no ha dado error al insertarlo?
+2. Copia y pega la insercion masiva de registros utilizando Bulk API.
+>El documento con `id=1` es un Peugeot 607. ¿Por qué no ha dado error al insertarlo?
 
 ```json
 POST /coches/doc/_bulk
