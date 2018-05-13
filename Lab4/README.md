@@ -1,4 +1,4 @@
-# Dashboards 
+## Dashboards 
 
 Kibana nos brinda la posiblidad de construir Dashboards vistosos cuyo eje es el temporal.
 
