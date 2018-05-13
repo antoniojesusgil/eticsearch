@@ -1,4 +1,3 @@
-### Some words here
 La estructura básica de una consulta DSL es
 ```json
 GET /coches/doc/_search
@@ -52,7 +51,7 @@ GET /coches/_search
 ```
 Con `match_all` obtiene todos los documentos de todos los índices existentes.
 
-##### To-Do
+### To-Do
 1. Obten los documentos cuya marca sea Ferrari.
 2. Obten los documentos cuya marca sea Rolls Royce.
 3. Muestra los documentos de cuyos coches sean del Reino Unido y España.
