@@ -1,6 +1,6 @@
 ## Dashboards 
 
-Kibana nos brinda la posiblidad de construir Dashboards vistosos cuyo eje es el temporal.
+Kibana nos brinda la posiblidad de construir Dashboards vistosos y apoyados en un eje de tiempo. Para construir un Dashboard, antes se han de crear graficas mediante la herramienta Visualize.
 
 ### To-Do
 1. Construye un indicador que muestre la cantidad de descargas que se han producido por `Market`
