@@ -19,3 +19,6 @@ Elaborar un Dashboard con indicadores en Kibana.
 
 ## Lab5 Reto: construye tu app movil
 Elasticsearch está diseñado para poder ser utilizado desde todo tipo de lenguajes y aplicaciones. Añadiremos funcionalidad de buscador en una app Angular.
+
+
+Comienza [aquí](./eticSearch.md)
