@@ -10,6 +10,8 @@ Este laboratorio consta de dos partes, la primera, enunciada a continuación ind
 
 En la segunda aprenderemos a añadir nuevos datos necesarios analizando los originales para disponer de información más relevante.
 
+#### To-Do
+
 1. Descarga los datos estadisticos del directorio `data`.
 2. Descarga y utiliza la plantilla `pipeline.conf` para construir el script. 
 3. Modifica el script para que apunte a los archivos csv.
