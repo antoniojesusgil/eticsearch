@@ -30,4 +30,4 @@ Ayuda en la sección oficial de [configuración de logstash](https://www.elastic
 
 El laboratorio se completa configurando correctamente el pipeline y para poder trabajar con las herramientas visuales que nos brinda Kibana, se ha de crear un `index pattern`.
 
-Una vez resuelta esta primera fase, ve a la segunda pinchando [aquí](./lab2_1/README.md)
+Una vez resuelta esta primera fase, ve a la segunda pinchando [aquí](./Lab2_1/README.md)
