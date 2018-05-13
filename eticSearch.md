@@ -6,7 +6,8 @@ Uno de nuestros clientes es un concesionario de coches ubicado en el cinturón i
 
 Tras las primeras reuniones y la aceptación de la nueva arquitectura, comenzamos a trabajar en el desarrollo de la solución.(Labs 1 y 3)
 
-Uno de los socios fundadores propuso tener un área de negocio centrada en el desarrollo de apps moviles, tras el lanzamiento una de ellas, la dirección desea conocer el impacto de la misma a nivel global, para ello propone que desarrollemos unos indicadores globales con estadísticas de ambos markets y nos piden que añadamos un nuevo índice en elastic para posteriormente construir un dashboard. (Labs 2 y 4)
+Uno de los socios fundadores propuso tener un área de negocio centrada en el desarrollo de apps moviles, tras el lanzamiento una de ellas, la dirección desea conocer el impacto de la misma a nivel global, para ello propone que añadamos un nuevo índice en elastic para posteriormente construir un dashboard con indicadores y estadísticas de ambos markets.
+En GitHub disponemos de los archivos csv tanto de Google como de Apple. (Labs 2 y 4)
 
 Tras una PoC dónde se mostraron las virtudes de elasticsearch al concesionario, se propuso el desarrollo de una app movil y segun palabras textuales del cliente, 'desbancar a wallapop en la sección motor'.
-Nuestro CTO es especialista en aplicaciones hibridas con Angular e Ionic ha construido un esqueleto. Aplica las funcionalidades necesarias para poder tener el buscador de coches. (Lab Reto)
+Nuestro CTO es especialista en aplicaciones hibridas con Angular e Ionic y ha construido un esqueleto. Aplica las funcionalidades necesarias para poder tener el buscador de coches. (Lab Reto)
