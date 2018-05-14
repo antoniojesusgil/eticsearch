@@ -1,5 +1,4 @@
-### Some words here
-Al iniciar Kibana y al acceder por primera vez a la consola DevTools por primera vez se observan éstas líneas de código.
+Al iniciar Kibana y al acceder por primera vez a la consola DevTools se observan éstas líneas de código.
 ```json
 GET _search
 {
@@ -8,5 +7,5 @@ GET _search
   }
 }
 ```
-##### To-Do
+### To-Do
 1. Ejecuta el código anterior y observa el resultado.
