@@ -1,8 +1,6 @@
-### Some words here
- 
 Verbos a utilizar `GET` y `PUT`
 
-##### To-Do
+### To-Do
 1. Muestra los `settings` con los que se ha creado el índice del ejercicio anterior.
 
 2. Obten el mapping del índice `coches`.
