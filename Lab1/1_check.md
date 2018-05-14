@@ -1,6 +1,3 @@
-### Some words here
-
-
 1. Desde el navegador, chequea el estado de elasticsearch
 > http://localhost:9200
   
@@ -10,5 +7,5 @@
 3. Familiarizate con la información de los nodos y los índices de tu sistema
 > http://localhost:9200/_nodes/settings?pretty=true
 
-##### To-Do
+### To-Do
 4. Realiza los ejercicios anteriores utilizando cURL. Mira el documento.
