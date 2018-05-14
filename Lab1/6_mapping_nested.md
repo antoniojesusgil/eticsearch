@@ -1,7 +1,6 @@
-### Some words here
 Para crear documentos anidados se utiliza el tipo de campo `nested`, el cual nos permite añadir arrays. Verbos a utilizar `POST` `DELETE` `PUT`
 
-##### To-Do
+### To-Do
 
 1. Añade el siguiente registro y revisa el `mapping` del índice. Reflexiona sobre el resultado
 ```json
