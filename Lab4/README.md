@@ -25,4 +25,4 @@ Las secciones están separadas por tipos.
 
 ### To-Do
 1. Construye un indicador que muestre la cantidad de descargas que se han producido por `Market`
-2. Crea un grafico de barras vertical que muestre ...
+2. Con la herramienta *Visual Builder* de Time Series construye una grafica que muestre la suma de instalaciones por dispositivo.
