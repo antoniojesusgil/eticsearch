@@ -24,9 +24,13 @@ Las secciones están separadas por tipos.
 ![misc](/Lab4/img/misc.PNG)
 
 ### To-Do
-1. Construye un indicador que muestre la cantidad de descargas que se han producido por `Market`
-2. Con la herramienta `Visual Builder` de `Time Series` construye una grafica temporal que muestre la suma de instalaciones por `Dispositivo`.
-3. Construye dos gráficas temporales que muestre las instalaciones por `Market`
-  > Esta gráfica necesita de aplicar filtros
+1. Construye un formulario con dos controles desplegables actualizables automáticamente, uno para los países y otro para los markets
+2. Dibuja un mapa mundial con la suma de las instalaciones totales.
+3. Crear una nube de palabras con los países
+4. Construye un indicador que muestre la cantidad de descargas que se han producido por `Market`
+5. Con la herramienta `Visual Builder` de `Time Series` construye una grafica temporal que muestre la suma de instalaciones por `Dispositivo`.
+6. Construye dos gráficas con `Visual Builder` que muestre las instalaciones filtradas por `Market`
+7. 
+
  
 
