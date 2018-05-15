@@ -4,6 +4,7 @@ Kibana nos brinda la posiblidad de construir Dashboards vistosos y apoyados en u
 
 Las secciones están separadas por tipos. 
 * Charts básicos
+  ![basics](/Lab4/img/basics.PNG)
 * Orientados al dato
 * Mapas y geo
 * Time series
