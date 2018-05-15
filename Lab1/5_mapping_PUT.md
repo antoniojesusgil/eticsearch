@@ -17,3 +17,5 @@ Para poder modificar índices, previamente hay que eliminarlos. Uso verbo `DELET
 | modelo       | keyword   |            |
 | precio       | float     |            |
 | location     | geo_point |            |
+
+```json
