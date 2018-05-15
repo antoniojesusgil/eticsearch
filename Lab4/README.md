@@ -30,7 +30,7 @@ Las secciones están separadas por tipos.
 4. Construye un indicador que muestre la cantidad de descargas que se han producido por `Market`
 5. Con la herramienta `Visual Builder` de `Time Series` construye una grafica temporal que muestre la suma de instalaciones por `Dispositivo`.
 6. Construye dos gráficas con `Visual Builder` que muestre las instalaciones filtradas por `Market`
-7. Diseña un `Velticar bar` donde el eje X sea tamporal y el eje Y el total de instalaciones, añade como `Buckets` los países y la aplicación.
+7. Diseña un `Verticar bar` donde el eje X sea tamporal y el eje Y el total de instalaciones, añade como `Buckets` los países y la aplicación.
 
  
 
