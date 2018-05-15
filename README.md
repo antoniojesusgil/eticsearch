@@ -3,10 +3,10 @@
 >Una serie de laboratorios prácticos.
 
 2. To-Do
->Cada laboratorio contiene una serie de ejercicios que se deberan completar.
+>Cada laboratorio contiene ejercicios que se deberán completar.
 
 ## Lab1 Conceptos básicos
-En este laboratorio nos familiarizaremos con la configuración, status, iniciado de los diferentes sistemas, la consola devTools y crearemos un primer mapping.
+En este laboratorio nos familiarizaremos con la configuración, status, inico de los diferentes sistemas, la consola devTools y crearemos un primer mapping.
 
 ## Lab2 Logstash from scratch
 Aprenderemos a ingestar datos en elasticsearch, configurar un pipeline donde se modifican y procesan tipos de datos para posteriormente ser visualizados en un Dashboard.
