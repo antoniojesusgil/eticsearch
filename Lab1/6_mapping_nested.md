@@ -43,3 +43,45 @@ Para crear documentos anidados se utiliza el tipo de campo `nested`, el cual nos
 | apellidos    | text      |            |
 
 
+
+
+```json
+PUT coches
+{
+  "mappings": {
+    "doc": {
+      "properties": {
+        "descripcion": {
+          "type": "text"
+        },
+        "fecha_compra": {
+          "type": "date",
+          "format": "dd-MM-yyyy"
+        },
+        "location": {
+          "type": "geo_point"
+        },
+        "marca": {
+          "type": "keyword"
+        },
+        "modelo": {
+          "type": "keyword"
+        },
+        "pais": {
+          "type": "text"
+        },
+        "precio": {
+          "type": "float"
+        },
+        "propietarios": {
+          "type": "nested",
+          "properties": {
+            "nombre": {"type":"text"},
+            "apellidos": {"type":"text"}
+          }
+        }
+      }
+    }
+  }
+}
+```
