@@ -27,6 +27,6 @@ Las secciones están separadas por tipos.
 1. Construye un indicador que muestre la cantidad de descargas que se han producido por `Market`
 2. Con la herramienta `Visual Builder` de `Time Series` construye una grafica temporal que muestre la suma de instalaciones por `Dispositivo`.
 3. Construye dos gráficas temporales que muestre las instalaciones por `Market`
- > Esta gráfica necesita de aplicar filtros
+  > Esta gráfica necesita de aplicar filtros
  
 
