@@ -39,4 +39,15 @@ GET /coches/doc/_search
   ]
 }
 
-
+GET _search
+{
+    "query": {
+        "range" : {
+            "fecha_compra" : {
+                "gte": "1985",
+                "lte": "2017",
+                "format": "yyyy||yyyy"
+            }
+        }
+    }
+}
