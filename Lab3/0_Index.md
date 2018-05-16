@@ -60,7 +60,7 @@ PUT coches
           "type": "nested",
           "properties": {
             "nombre" : {
-              "type": "text"
+              "type": "text",
                 "fields": {
                   "keyword": {
                   "type": "keyword",
@@ -69,7 +69,7 @@ PUT coches
               }
             },
             "apellidos": {
-              "type": "text"
+              "type": "text",
                 "fields": {
                   "keyword": {
                   "type": "keyword",
