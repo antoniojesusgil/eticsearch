@@ -61,9 +61,21 @@ PUT coches
           "properties": {
             "nombre" : {
               "type": "text"
+                "fields": {
+                  "keyword": {
+                  "type": "keyword",
+                  "ignore_above": 256
+                }
+              }
             },
             "apellidos": {
               "type": "text"
+                "fields": {
+                  "keyword": {
+                  "type": "keyword",
+                  "ignore_above": 256
+                }
+              }
             }
           }
         }
