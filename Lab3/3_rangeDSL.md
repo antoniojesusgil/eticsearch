@@ -6,3 +6,11 @@ Echa un vistazo a las agregaciones `range` en la [documentación oficial](https:
 3. Obten los coches cuyo precio sea superior a 30000 en orden descendente.
 4. Muestra todos los coches comprendidos entre 1985 y 2017.
 
+```json
+GET coches/_search
+{
+  "query": {
+    "terms" : { "marca": ["lada", "renault"]}
+  }
+}
+
