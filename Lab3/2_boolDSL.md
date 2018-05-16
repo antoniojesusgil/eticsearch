@@ -66,3 +66,18 @@ GET /coches/_search
     }
   }
 
+GET /coches/doc/_search
+{
+  "query": {
+    "bool": {
+      "must_not": [
+        {
+          "match": {
+            "pais": "España"
+          }
+        }
+      ]
+    }
+  }
+}
+
