@@ -25,4 +25,18 @@ GET coches/_search
     }
 }
 
+GET /coches/doc/_search
+{
+  "query": {
+      "range": {
+        "precio": {
+          "gte": 30000
+        }
+      }
+  },
+  "sort": [
+    { "precio" : "desc" }
+  ]
+}
+
 
