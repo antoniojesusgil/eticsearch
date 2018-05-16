@@ -47,3 +47,22 @@ GET coches/doc/_search
   }  
 }
 
+GET /coches/_search
+{
+  "query": {
+    "bool": {
+      "should": [
+       {
+          "match_all": {}
+        },
+        {
+          "range": {
+            "precio": {
+              "gte": 20000
+            }
+          }
+        }
+      ],"minimum_should_match": 1
+    }
+  }
+
