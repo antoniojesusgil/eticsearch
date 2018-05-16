@@ -25,3 +25,30 @@ GET coches/doc/_search
     }
   }
 }
+
+GET coches/doc/_search
+{
+  "query": {
+    "nested": {
+      "path": "propietarios",
+      "query": {
+        "bool": {
+          "must": [
+            {
+              "match": {
+                "propietarios.nombre": "James"
+              }
+            },
+            {
+              "match": {
+                "propietarios.apellidos": "Bond"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}
+
+
