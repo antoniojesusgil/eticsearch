@@ -56,3 +56,13 @@ Con `match_all` obtiene todos los documentos de todos los índices existentes.
 2. Obten los documentos cuya marca sea Rolls Royce.
 3. Muestra los documentos de cuyos coches sean del Reino Unido y España.
 4. Utilizando `multi_match` y el operador `OR` muestra todos los Seat y todos los coches Italianos
+
+
+GET coches/doc/_search
+{
+  "query": {
+    "match": {
+      "pais":"España Reino Unido"
+    }
+  }
+
