@@ -14,3 +14,15 @@ GET coches/_search
   }
 }
 
+GET coches/_search
+{
+    "query": {
+        "range" : {
+            "fecha_compra" : {
+                "lte": "01-01-2017"
+            }
+        }
+    }
+}
+
+
