@@ -91,9 +91,9 @@ PUT coches
 ```json
 POST /coches/doc/_bulk
 {"index":{"_id":1}}
-{"descripcion":"nuevo","marca":"Peugeot","modelo":607,"fecha_compra":"11-01-2017","pais":"Francia","precio":240.88,"location":{"lat":42.12,"lon":0.34},"propietarios":[{"nombre":"Romain","apellidos":"Grosjean"}]}
+{"descripcion":"nuevo","marca":"Peugeot","modelo":607,"fecha_compra":"11-01-2017","pais":"Francia","precio":240.88,"location":{"lat":42.12,"lon":0.34},"propietarios":[{"nombre":"Romain","apellidos":"Grosjean"},{"nombre":"Esteban","apellidos":"Ocon"}]}
 {"index":{"_id":2}}
-{"descripcion":"Como nuevo","marca":"Lancia","modelo":"Delta","fecha_compra":"12-01-2017","pais":"Italia","precio":899.88,"location":{"lat":41.12,"lon":0.34},"propietarios":[{"nombre":"Kimi","apellidos":"Raikkonen"}]}
+{"descripcion":"Como nuevo","marca":"Lancia","modelo":"Delta","fecha_compra":"12-01-2017","pais":"Italia","precio":899.88,"location":{"lat":41.12,"lon":0.34},"propietarios":[{"nombre":"Kimi","apellidos":"Raikkonen"}, {"nombre":"Kevin","apellidos":"Magnussen"}]}
 {"index":{"_id":3}}
 {"descripcion":"semi nuevo","marca":"Lada","modelo":"Rapid","fecha_compra":"11-01-2017","pais":"Rusia","precio":20000.88,"location":{"lat":30.12,"lon":0.34},"propietarios":[{"nombre":"Sergey","apellidos":"Sirotkin"}]}
 {"index":{"_id":4}}
