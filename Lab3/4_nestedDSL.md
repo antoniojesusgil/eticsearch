@@ -51,4 +51,3 @@ GET coches/doc/_search
   }
 }
 
-
